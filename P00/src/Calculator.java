@@ -9,7 +9,7 @@
  * 22030366, 25 May 2023 9:49:54 am
  */
 
-public class Calculator {
+public class Calculator { //add comment
 
 	public int add (int a, int b) {
 		return a + b;
