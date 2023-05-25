@@ -71,13 +71,13 @@ public class CalculatorTest {
 	@Test
 	public final void testDivide() {
 		
-		int a = 100;
+		int a = 75;
 		int b = 25;
 		
 		Calculator cal = new Calculator();
 		int actual = cal.divide(a, b);
 		
-		int expected = 4;
+		int expected = 3;
 		
 		assertEquals (expected, actual);
 	}
